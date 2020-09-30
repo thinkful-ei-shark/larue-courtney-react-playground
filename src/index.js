@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+//import App from './App';
 import './index.css';
-// import helloWorld from './Hello-World';
+//import SetInterval from './state-drills/Bomb';
+//import HelloWorld from './state-drills/Hello-World';
+import NapRoulette from './state-drills/NapRoulette'
 
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<NapRoulette />, document.getElementById('root'));

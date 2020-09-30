@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
 
-class helloWorld extends Component {
+class HelloWorld extends Component {
     state = {
         who: 'world',
     }
@@ -9,10 +9,10 @@ class helloWorld extends Component {
     render() {
         return (
         <div>
-            <p>Hello, {this.state.who} </p>
-            <button onCLick={() => this.setState({ who: 'world' })}>World</button>
-            <button onCLick={() => this.setState({ who: 'friend' })}>Friend</button>
-            <button onCLick={() => this.setState({ who: 'react' })}>React</button>
+            <p>Hello, {this.state.who} ! </p>
+            <button onClick={() => this.setState({ who: 'world' } )}>World</button>
+            <button onClick={() => this.setState({ who: 'friend' })}>Friend</button>
+            <button onClick={() => this.setState({ who: 'react' })}>React</button>
             </div>
         )
     }
@@ -21,7 +21,7 @@ class helloWorld extends Component {
 
 
 
-export default helloWorld;
+export default HelloWorld;
 
 
 // handleButtonClick()

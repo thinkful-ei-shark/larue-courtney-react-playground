@@ -2,9 +2,14 @@ import React from 'react';
 
 function App() {
   return (
-    <main className='App'>
-      {/* content goes here */}
-    </main>
+    <div className='App'>
+      <h2> Hello World</h2>
+      <HelloWorld />
+      <h2>Bomb</h2>
+      <Bomb />
+      <h2> Roulette Gun</h2>
+      <RouletteGun />
+    </div>
   );
 }
 
