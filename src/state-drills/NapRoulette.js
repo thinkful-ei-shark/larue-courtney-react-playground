@@ -40,7 +40,6 @@ class NapRoulette extends Component {
         }
     } 
    
-    
     render() {
         return (
             <div className='Nap Roulette'>
